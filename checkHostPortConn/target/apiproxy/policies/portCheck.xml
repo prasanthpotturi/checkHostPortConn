@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Script async="false" continueOnError="false" enabled="true" name="portCheck">
-    <DisplayName>portCheck</DisplayName>
-    <Properties/>
-    <ResourceURL>py://portCheck.py</ResourceURL>
-</Script>
