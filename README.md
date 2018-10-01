@@ -16,6 +16,7 @@ Authorization: Basic <orgAdmin/readonlyOrgAdmin>
 Content-Type:application/json
 
 ### Body:
+//Sample Request
 
 {
     "hostip" :"xx.xxx.xxx.001",
