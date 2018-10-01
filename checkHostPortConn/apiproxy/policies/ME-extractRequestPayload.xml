@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ME-extractRequestPayload">
+    <DisplayName>ME-extractRequestPayload</DisplayName>
+    <Source>request</Source>
+    <!--  <FormParam name="hostip">
+        <Pattern>{hostip}</Pattern>
+    </FormParam>
+    <FormParam name="port">
+        <Pattern>{port}</Pattern>
+    </FormParam> 
+    -->
+    <JSONPayload>
+        <Variable name="hostip" type="string">
+            <JSONPath>$.hostip</JSONPath>
+        </Variable>
+        <Variable name="port" type="string">
+            <JSONPath>$.port</JSONPath>
+        </Variable>
+    </JSONPayload>
+</ExtractVariables>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="checkHostPortConn">
+    <Basepaths>/portcheckingpy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1537913529286</CreatedAt>
+    <CreatedBy>ppotturi@google.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>portcheckingpy</DisplayName>
+    <LastModifiedAt>1538094629705</LastModifiedAt>
+    <LastModifiedBy>ppotturi@google.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:df4d346f86c8322350b8f69d06d5f77120b92ee9bad9313d4f4e79a32ad84c981c91b410731bfb14314d2b8a74945e1ea7b8753a51f55dd4f2b176f4cd1f5268</ManifestVersion>
+    <Policies>
+        <Policy>AM-faultResponse</Policy>
+        <Policy>AM-sendResponse</Policy>
+        <Policy>ME-extractError</Policy>
+        <Policy>ME-extractRequestPayload</Policy>
+        <Policy>portCheck</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>py://portCheck.py</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
