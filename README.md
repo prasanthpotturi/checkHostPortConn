@@ -1,5 +1,5 @@
 # check Host Port Connectivity 
-This utility API proxy is useful in checking whether there is connectivity from MPs to backend/target host and port. This would be a self service proxy to application teams to verify whether a target endpoint is accessable instead of reaching out to support/internal operations teams.
+This is a self service utility API proxy to verify connectivity from MPs to backend/target host and port
 
 ## Steps to run install
 1. Download and install Maven 3.0.*
